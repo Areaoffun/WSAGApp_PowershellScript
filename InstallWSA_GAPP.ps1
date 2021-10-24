@@ -76,7 +76,7 @@ wsl.exe -u $wsl_username './shell.sh'
 #install
 
 Copy-Item $downloadPath'/WSAGAScript/*.img' $downloadPath'/wsap' -Force
-Import-Module Appx
+Import-Module Appx -usewindowspowershell
 Add-AppxPackage -Register $downloadPath'/wsap/AppxManifest.xml'
 
 "****Finished****"
