@@ -69,8 +69,8 @@ sudo ./apply.sh
 sudo ./unmount_images.sh
 "@
 $shell | Set-Content $downloadPath'/shell.sh'
-Clear-Host
-"Waiting for WSL..."
+
+"`n`n`n`n`n`n*********Waiting for WSL...***********`n`n`n`n`n`n"
 wsl.exe -u $wsl_username './shell.sh'
 
 #install
