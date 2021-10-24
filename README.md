@@ -7,10 +7,12 @@ Only tested on **Win11 x86_64 21H2 and WSL Ubuntu 18.04 LTS**
 ## Before
 
 * Please enable windows developer mode in settings.
+
 ![picture 1](source/img/2021-10-24-18-20-31-892.png)  
-* Uninstall any installed WSA
+* Uninstall any installed WSA.
 * Clone repo or Download `InstallWSA_GAPP.ps1`, open and edit variable `$wsl_username` to your username in WSL. **root won't  work!**
 * Install Powershell above 6.0.0. See https://aka.ms/PSWindows
+* WSL 2 is required.
 
 If you encounted network issues, you can download files manually like [WSAGAScript](https://github.com/ADeltaX/WSAGAScript/) said. Save file 
 * `msixbundle (~1.2GB)` as `wsa.msixbundle`
