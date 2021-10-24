@@ -22,7 +22,7 @@ If you encounted network issues, you can download files manually like [WSAGAScri
 Put them beside the ps1 file. Then edit the variable `$skipDownload = $false` to `$true`.
 
 ## Install
-`cd` to the folder contains the script,and run it with the **new** Powershell. It will download necessary files and install automatically. Meanwhile you will be asked for your WSL password.
+`cd` to the folder contains the script,and run it with the **new** Powershell and admin privilege. It will download necessary files and install automatically. Meanwhile you will be asked for your WSL password.
 
 If you are stuck at `Waiting for WSL`, you can run `wsl --shutdown` to terminate WSL and retry.
 
