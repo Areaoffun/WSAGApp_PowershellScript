@@ -1,10 +1,10 @@
 $lang = 'en_US'
 $arch_gapps = 'x86_64'
 $arch_wsa = 'x64'
-$wsl_username = 'rika'
+$wsl_username = 'yourusername'
 
 $downloadPath = '.'
-$skipDownload = $true
+$skipDownload = $false
 
 
 if ( -not $skipDownload ) {
